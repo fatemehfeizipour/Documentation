@@ -41,7 +41,7 @@ https://docs.aws.amazon.com/cdk/v2/guide/node-versions.html
 
 Compare the first number of your `node --version` with the table. If your number isn't listed, it isn't officially supported. That doesn't mean it will break, only that AWS hasn't promised it works.
 
-`[SCREENSHOT: the supported Node.js versions table]`
+![SCREENSHOT: the supported Node.js versions table](./the_supported_Nodejs_versions_table.png)
 
 ## Step 3: check that the AWS CLI is connected to your account
 
