@@ -31,7 +31,7 @@ aws --version
 | npm | Installs the CDK and your project's packages |
 | AWS CLI | Connects your computer to your AWS account |
 
-![SCREENSHOT: the three version outputs](./the_three_version_outputs.png)
+![SCREENSHOT: the three version outputs](../screenshots1/the_three_version_outputs.png)
 
 ## Step 2: check that your Node.js version is supported
 
