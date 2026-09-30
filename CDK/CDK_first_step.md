@@ -31,7 +31,7 @@ aws --version
 | npm | Installs the CDK and your project's packages |
 | AWS CLI | Connects your computer to your AWS account |
 
-![SCREENSHOT: the three version outputs](./get-caller-identity.png)
+![SCREENSHOT: the three version outputs](./the_three_version_outputs.png)
 
 ## Step 2: check that your Node.js version is supported
 
@@ -51,7 +51,7 @@ aws sts get-caller-identity
 
 This asks AWS "who am I logged in as?" and changes nothing. If it returns an account and user, CDK can deploy. If it says it can't locate credentials, configure them first.
 
-`[SCREENSHOT: get-caller-identity output, with account number and user ID hidden]`
+![SCREENSHOT: get-caller-identity output, with account number and user ID hidden](./get-caller-identity.png)
 
 ## Step 4: install the CDK
 
@@ -75,7 +75,7 @@ cd cdk-from-zero
 1. **I never checked whether my Node.js version was supported.** I had v26, which wasn't on the CDK's table. It worked, so I assumed it was fine.
 2. **I tried to install the supported version over the newer one.** The Node 24 installer stopped with "A later version of Node.js is already installed." The fix was to uninstall v26 first, then install Node 24 LTS.
 
-`[SCREENSHOT: "A later version of Node.js is already installed" message]`
+![SCREENSHOT: "A later version of Node.js is already installed" message](./later_version.png)
 
 ## How to notice updates yourself
 
@@ -83,7 +83,7 @@ cd cdk-from-zero
 - **Run `winget upgrade`** on Windows to list installed apps with available updates. Node.js may not appear if it wasn't installed through winget.
 - **Once a month**, compare `node --version` with the CDK's supported table.
 
-`[SCREENSHOT: winget upgrade output]`
+![SCREENSHOT: winget upgrade output](./winget_upgrade_output.png)
 
 ## What I learned
 
