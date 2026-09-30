@@ -100,5 +100,5 @@ cd cdk-from-zero
 
 ## Related posts
 
-[- Medium blog:](https://medium.com/@fatemehfeizipur/before-you-start-your-first-aws-cdk-project-the-setup-checklist-i-wish-i-had-8a64225f4028?sharedUserId=fatemehfeizipur)
-- LinkedIn post: `[LINK TO YOUR LINKEDIN POST]`
+[Medium blog](https://medium.com/@fatemehfeizipur/before-you-start-your-first-aws-cdk-project-the-setup-checklist-i-wish-i-had-8a64225f4028?sharedUserId=fatemehfeizipur)
+[LinkedIn post]()
