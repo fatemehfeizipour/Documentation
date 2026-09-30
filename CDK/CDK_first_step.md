@@ -31,7 +31,7 @@ aws --version
 | npm | Installs the CDK and your project's packages |
 | AWS CLI | Connects your computer to your AWS account |
 
-`[SCREENSHOT: the three version outputs]`
+`[SCREENSHOT: the three version outputs](get-caller-identity.png)`
 
 ## Step 2: check that your Node.js version is supported
 
